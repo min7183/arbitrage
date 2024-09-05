@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path("", views.index, name = "index"),
-    path("query_result/<dict: params>/", views.query_result, name = "query_result")
+    #path("query_result/<dict:params>/", views.query_result, name = "query_result")
 ]
